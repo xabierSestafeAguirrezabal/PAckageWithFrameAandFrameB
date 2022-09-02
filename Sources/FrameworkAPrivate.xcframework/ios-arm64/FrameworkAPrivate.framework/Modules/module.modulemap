@@ -1,0 +1,11 @@
+framework module FrameworkAPrivate {
+  umbrella header "FrameworkAPrivate.h"
+
+  export *
+  module * { export * }
+}
+
+module FrameworkAPrivate.Swift {
+    header "FrameworkAPrivate-Swift.h"
+    requires objc
+}
