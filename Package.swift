@@ -20,9 +20,11 @@ let package = Package(
      
         .binaryTarget(
                      name: "FrameworkAPrivate",
-                     path: "./Sources/FrameworkAPrivate.xcframework"),
+                     url: "https://nexus6.kydom.net/repository/FrameworkA/FrameworkA/FrameworkAPrivate.xcframework.zip",
+                    checksum: "04f9c8676514de734ec93a53801f1b37b75557a23315575898f19457bad7b1ed"),
         .binaryTarget(
                      name: "FrameworkBPrivate",
-                     path: "./Sources/FrameworkBPrivate.xcframework")
+                     url: "https://nexus6.kydom.net/repository/FrameworkA/FrameworkB/FrameworkBPrivate.xcframework.zip",
+                     checksum: "efdd7d2d9f343db0a9967daf1d8c4e9ceb742734ee6acafc2623a283cc6ffb3d")
     ]
 )
